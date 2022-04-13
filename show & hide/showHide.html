@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hide & Seek</title>
+</head>
+<style>
+    #para {
+        visibility: hidden;
+        background-color: brown;
+        width: 350px;
+        height: 100px;
+        text-align: center;
+        font-size: 50px;
+        font-family: 'Courier New', Courier, monospace;
+        color: burlywood;
+        border-radius: 20px;
+    }
+    #datePara {
+        visibility: hidden;
+        background-color: rgb(95, 42, 165);
+        width: 350px;
+        height: 100px;
+        text-align: center;
+        font-size: 50px;
+        font-family: 'Courier New', Courier, monospace;
+        color: burlywood;
+        border-radius: 20px;
+    }
+
+    .btn {
+        color: black;
+        width: 150px;
+        height: 50px;
+        background-color: rgb(71, 151, 255);
+        border: none;
+        border-radius: 50px;
+    }
+</style>
+
+<body>
+    <div>
+        <button class="btn" type="button" id="btn">Show</button>
+        <button class="btn" type="button" id="date">Show Date</button>
+        <p id="para">Text Show</p>
+        <p id="datePara">Today's Date:</p>
+    </div>
+
+    <script src="showHide.js"></script>
+</body>
+
+</html>
