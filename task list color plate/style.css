@@ -25,3 +25,21 @@ h1 {
     left: 0;
     bottom: 0;
 }
+
+.color-circle{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.inner-textarea{
+    resize: none;
+    position: absolute;
+    background-color: #ddd;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.35);
+    top: 0;
+    left: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    padding: 5px;
+}
